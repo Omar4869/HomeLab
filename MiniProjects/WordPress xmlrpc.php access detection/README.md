@@ -33,8 +33,8 @@ This rule looks for characteristics of access to /xmlrpc.php and generates an al
 
 Note: The rule's effect typically takes around 15-20 minutes after enabling it to start generating alerts.
 
-# testing
+# Testing
 
-We can test the rule by using test_rule.py. After running we should see the following alert in Security Onion.
+We can test the rule by using test_rule.py. After running the script we should see the following alert in Security Onion.
 
 ![results](https://raw.githubusercontent.com/omarbinmuhisen/HomeLab/refs/heads/main/images/021649.png?token=GHSAT0AAAAAAC55YEHD4QEJHSUIXANJMRQAZ4ZMYDQ)
