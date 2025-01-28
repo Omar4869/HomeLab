@@ -12,7 +12,7 @@ I decided to create a detection rule to identify such access attempts.
 
 The initial step was to configure the WordPress instance on an Ubuntu machine (192.168.7.10). The docker container was made using docker-compose.yml. It also ensures that the Docker container is only exposed to our internal network.
 
-This set up allowes us to interact with the Docker container from the Kali Linux host (192.168.1.129).
+This set up allows us to interact with the Docker container from the Kali Linux host (192.168.1.129).
 
 # Security Onion Detection Rule
 
