@@ -20,6 +20,7 @@ Simply download the agent installer from the `Downloads` tab and run it on each 
 
 Finally, each host should show up in the `Elastic fleet` interface and host logs should start showing up.
 
+![results](https://github.com/omarbinmuhisen/HomeLab/blob/main/MiniProjects/Implement%20Elastic%20agents/results.png?raw=true)
 
 
 
