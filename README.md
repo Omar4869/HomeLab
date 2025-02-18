@@ -1,6 +1,6 @@
 # Home Security Lab
 
-This repository documents my home security lab built using VMware. It is used to simulate different attacks and test various defense measures.
+This repository documents projects from my home security lab built with VMware. It is not intended to provide step-by-step instructions for reproducing the lab environment. The lab is used to simulate various attacks and test different defense measures. 
 
 ## Overview
 The home security lab features:
