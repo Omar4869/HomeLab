@@ -27,6 +27,8 @@ The script `phish_server.py` hosts a login page that directs to an error page. T
 ![login](Images/Login_page.jpg)
 
 
+
+
 ![login_error](Images/login_error.jpg)
 
 # Sending The phishing email
@@ -63,9 +65,11 @@ swaks --to user1@homelab.local \
 ```
 
 The email should look like this:
+
 ![email](Images/email.jpg)
 
 Finally, we should see the stored password:
+
 ![password](Images/password.jpg)
 
 
