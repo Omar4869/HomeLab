@@ -24,9 +24,9 @@ There are more sophisticated open-source tools that harvest credentials such as 
 
 The script `phish_server.py` hosts a login page that directs to an error page. The script stores the collected credentials in the same folder.
 
-![login](MiniProjects\Implement SMTP server\Images\Login_page.jpg)
+![login](MiniProjects/Implement SMTP server/Images/Login_page.jpg)
 
-![login_error](MiniProjects\Implement SMTP server\Images\login_error.jpg)
+![login_error](MiniProjects/Implement SMTP server/Images/login_error.jpg)
 
 
 # Sending The phishing email
@@ -63,10 +63,10 @@ swaks --to user1@homelab.local \
 ```
 
 The email should look like this:
-![email](MiniProjects\Implement SMTP server\Images\email.jpg)
+![email](MiniProjects/Implement SMTP server/Images/email.jpg)
 
 Finally, we should see the stored password:
-![password](MiniProjects\Implement SMTP server\Images\password.jpg)
+![password](MiniProjects/Implement SMTP server/Images/password.jpg)
 
 # Final thoughts
 
