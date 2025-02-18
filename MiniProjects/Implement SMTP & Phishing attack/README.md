@@ -3,7 +3,7 @@
 One of the most successful avenues for initial access is phishing. Thus, i decided to implement a mail server on the DC host to allow for sending and receiving email.
 
 # Mail server setup (DC)
-Large organizations usually use Microsoft Exchange, however i opted for [hMailServer](https://www.hmailserver.com) since it offers a more lightweight solution. 
+Large organizations usually use Microsoft Exchange. However i opted for [hMailServer](https://www.hmailserver.com) since it offers a more lightweight solution. 
 
 The installer is pretty standard and we choose `mail.homelab.local` as our domain. 
 
