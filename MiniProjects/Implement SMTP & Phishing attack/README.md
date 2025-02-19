@@ -78,3 +78,4 @@ Finally, we should see the stored password:
 - Real-life phishing requires more social engineering and understanding of the context of the email
 - Other tools offer capabilities such as campaign management and link-clicks tracking
 - Email solutions such as Microsoft Exchange and security solutions such as Zscaler offer countermeasures for phishing. 
+
